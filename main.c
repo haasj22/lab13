@@ -22,8 +22,9 @@
 int main(int argc, const char * argv[])
 {
   robotPrintAscii();
+if(argc == 2){
   dalekPrintAscii();
   robotPrintMessage();
-
+}
   return 0;
 }
